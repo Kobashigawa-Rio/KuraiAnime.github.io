@@ -1,0 +1,192 @@
+body {
+  background-color: #141414;
+  color: white;
+  margin: 0px;
+}
+header {
+  display: flex;
+  min-height: 60px;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+}
+.Logo2 {
+  margin-top: 30px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+nav a {
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+nav a:hover {
+    color: #4D4DFF;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.active {
+  color: #4D4DFF;
+}
+
+input {
+    border-radius: 5px;
+    border-color: white;
+    background-color: Black;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #4D4DFF;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-search:before {
+  content: "\e986";
+}
+
+.icon-play:before {
+  content: "\ea1c";
+}
+
+.Add {
+  background-color: Black;
+  border-color: White;
+  color: White;
+}
+
+.Body1 {
+  margin-top: 10px;
+  display: flex;
+  min-height: 320px;
+  background-color: Black;
+}
+
+.Container1 {
+  display: flex;
+  margin-bottom: 2px;
+  margin-left: 10%;
+}
+
+.buttons1 {
+  display: flex;
+  margin-top: 3%;
+  margin-right: 10%;
+  align-items: bottom;
+  height: 10%;
+  width: 35%;
+}
+
+.New {
+  display: flex;
+  min-height: 60px;
+  background-color: Black;
+  margin-top: 10px;
+}
+.title1 {
+  display: flex;
+  align-items: center;
+
+}
+.Container2 {
+  display: flex;
+  margin-right: 80%;
+}
+
+.serie1 {
+  margin-left: 5%;
+  margin-right: 15%;
+  text-align: center;
+}
+.Button2 {
+ background-color: black;
+ border-color: White;
+
+}
+.Button3 {
+ background-color: black;
+ border-color: White;
+}
+
+.Mylist {
+  display: flex;
+  min-height: 60px;
+  background-color: Black;
+  margin-top: 10px;
+}
+
+.ConW {
+  display: flex;
+  min-height: 60px;
+  background-color: Black;
+  margin-top: 10px;
+}
+.title1 {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+}
+.Container2 {
+  display: flex;
+  margin-right: 80%;
+}
+
+.serie1 {
+  margin-left: 5%;
+  margin-right: 15%;
+  text-align: center;
+}
+.Button2 {
+ background-color: black;
+ border-color: White;
+ margin-left: 1%;
+}
+.Button3 {
+ background-color: black;
+ border-color: White;
+}
+
+.Button4 {
+ background-color: black;
+ border-color: White;
+ margin-left: 2%;
+}
+.Button5 {
+ background-color: black;
+ border-color: White;
+}
+.Button6 {
+ background-color: black;
+ border-color: White;
+ margin-left: 2.7%;
+}
+.Button7 {
+ background-color: black;
+ border-color: White;
+}
+
+footer {
+  display: flex;
+  margin-top: 10px;
+  background-color: Black;
+}
+
+@media (max-width: 1255px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+  padding: 10px 0px;
+  }
+}
